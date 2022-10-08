@@ -18,7 +18,7 @@ counties <- readRDS("./data/counties.rds")
 ui <- fluidPage(
 
     # Application title
-    titlePanel("Old Faithful Geyser Data"),
+    titlePanel("US Census 2010: Ethnicity"),
 
     # Sidebar with a slider input for number of bins 
     sidebarLayout(
